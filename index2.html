@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let debit = prompt('Nhập vốn vay');
+        debit = parseFloat(debit);
+        let rate = prompt('Nhập lãi suất');
+        rate = parseFloat(rate);
+        let years = prompt('Nhập số năm');
+        years = parseFloat(years);
+
+        let result = debit + debit*rate/100*years;
+        document.write('Tổng số tiền là: ' + result);
+    </script>
+</body>
+</html>
